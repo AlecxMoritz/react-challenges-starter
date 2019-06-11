@@ -10,10 +10,10 @@ const Splash = () => {
             <h4>Useful Resources</h4>
             <ListGroup>
                 <ListGroupItem>
-                    <a target="_blank" className="list-link" href="https://reactstrap.github.io/">Reactstrap Docs</a>
+                    <a target="_blank" rel="noopener noreferrer" className="list-link" href="https://reactstrap.github.io/">Reactstrap Docs</a>
                 </ListGroupItem>
                 <ListGroupItem>
-                    <a target="_blank" className="list-link" href="https://reactjs.org/docs/hooks-intro.html">React Hooks Docs</a>
+                    <a target="_blank" rel="noopener noreferrer" className="list-link" href="https://reactjs.org/docs/hooks-intro.html">React Hooks Docs</a>
                 </ListGroupItem>
             </ListGroup>
         </Container>

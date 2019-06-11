@@ -1,28 +1,22 @@
 import React from 'react';
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 const Sitebar = () => {
     return (
         <Navbar color="dark" dark expand="md">
-            <NavbarBrand>
-                <Link to="/" className="site-link">Home</Link>
+            <NavbarBrand href="/">
+                Home
             </NavbarBrand>
             <Nav className="ml-auto">
                 <NavItem>
-                    <NavLink>
-                        <Link to="/day-one" className="site-link">Day One</Link>
-                    </NavLink>
+                    <Link to="/day-one" className="site-link">Day One</Link>
                 </NavItem>
                 <NavItem>
-                    <NavLink>
-                        <Link to="/day-two" className="site-link">Day Two</Link>
-                    </NavLink>
+                    <Link to="/day-two" className="site-link">Day Two</Link>
                 </NavItem>
                 <NavItem>
-                    <NavLink>
-                        <Link to="/day-three" className="site-link">Day Three</Link>
-                    </NavLink>
+                    <Link to="/day-three" className="site-link">Day Three</Link>
                 </NavItem>
             </Nav>
         </Navbar>
