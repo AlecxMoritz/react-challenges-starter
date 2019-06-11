@@ -7,6 +7,7 @@ const DayThree = () => {
         <Container>
             <h1>Day Three Challenge</h1>
             <Badge color="primary">Data Binding</Badge>
+            <Badge color="secondary">Conditional Rendering</Badge>
             <hr />
         </Container>
     )
